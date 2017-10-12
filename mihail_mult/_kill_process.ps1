@@ -10,7 +10,7 @@
 
 param(
 		[string]$msg			= "<No Msg>",							# текст сообщения
-		[string]$log_all		= "log_all.txt"							# файл для накопления логов
+		[string]$log_all		= "log_all.txt",						# файл для накопления логов
 		[string]$process_name	= "firefox"								# Имя процесса который собираемся убить
 )
 
